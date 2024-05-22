@@ -71,4 +71,4 @@ PS_TIME="\[\033[\$((COLUMNS-10))G\] $RED[\t]$RESET"
 
 export PS1="\${PS_FILL}${RESETPOS}${PS_INFO} \`${SELECT}\` ${PS_GIT}${PS_TIME}\n${RESET}>> "
 
-
+stty -ixon
